@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Bagley</title>
+    <description>John Bagley.  Ruby on Rails web developer</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 01 Oct 2014 14:39:25 -0400</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2014 14:39:25 -0400</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Rank And File</title>
+        <description>
+</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
+        <link>/web%20development/2014/07/18/rank-and-file/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/18/rank-and-file/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Draft Prep</title>
+        <description>
+</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
+        <link>/web%20development/2014/07/18/draft-prep/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/18/draft-prep/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Two Cents</title>
+        <description>
+</description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 -0400</pubDate>
+        <link>/web%20development/2014/07/17/two-cents/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/17/two-cents/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Pft Clone</title>
+        <description>
+</description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 -0400</pubDate>
+        <link>/web%20development/2014/07/16/pft-clone/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/16/pft-clone/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Works In Progress</title>
+        <description>
+</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 -0400</pubDate>
+        <link>/web%20development/2014/07/15/works-in-progress/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/15/works-in-progress/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

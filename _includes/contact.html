@@ -1,0 +1,23 @@
+ <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                    <hr class="star-primary">
+                </div>
+                <div class="col-lg-8 col-lg-offset-2">
+                  <p>I'd love to hear from you if you're hiring, looking for some extra help, or just want to say hello.</p>
+                </div>
+                <div class="col-lg-12 text-center">
+                  <ul class="list-inline">
+                    {% for network in site.social %}
+                    <li>
+                      <a href="{{ network.url }}" class="btn-social btn-outline-inverse"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </section>

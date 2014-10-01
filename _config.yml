@@ -1,0 +1,30 @@
+# Site settings
+title: John Bagley
+email: jdbagley@gmail.com
+description: "John Bagley.  Ruby on Rails web developer"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: envelope
+    url: mailto:jdbagley@gmail.com
+  - title: linkedin
+    url: http://linkedin.com/in/johnbagley
+  - title: github
+    url: http://github.com/johnbagley
+  - title: twitter
+    url: http://twitter.com/johndbagley
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 7 Bentley Street
+  - line: Brighton, MA 02135
+
+# Build settings
+markdown: kramdown
+permalink: pretty

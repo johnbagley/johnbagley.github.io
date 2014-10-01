@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-17
+img: two_cents.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Collaborative sharing app.  Allows for uploads of documents, audio, video via Paperclip, with live chat powered by Pusher.<p><a href="https://twocents-metis.herokuapp.com">View on Heroku</a><p><a href="https://github.com/thisismetis/two_cents">View code on GitHub</a>
+
+---

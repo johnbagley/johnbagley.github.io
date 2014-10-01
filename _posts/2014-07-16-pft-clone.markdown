@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-16
+img: pft.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: A very simple blog site based on the ProFootballTalk website. (I love me some football!)<p><a href="https://github.com/johnbagley/pft">View code on GitHub</a>
+
+---

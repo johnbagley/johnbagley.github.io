@@ -1,34 +1,20 @@
-<!DOCTYPE html>
-<html id='wrapper'>
-  <head>
-  <meta charset='UTF-8'>
-  <title>John Bagley | Portfolio
-  </title>
-  <link rel="stylesheet" type="text/css" href="application.css">
-  </head>
+---
+layout: default
+---
 
-<body>
-  <div class='header'>
-    JOHN BAGLEY
-  </div>
+<div class="home">
 
-  <p class='about'>I'm a Ruby on Rails Developer and this some of my work</p>
+  <h1>Posts</h1>
 
-  <div class='container'>
-    <p>Rank and File</br>
-    <a href='http://rank-and-file.herokuapp.com'><img src='screenshots/search_result.png'></a>
-  </div>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-  <div class='container'>
-    <p>Two Cents</br>
-    <a href='https://github.com/thisismetis/two_cents'><img src='screenshots/two_cents.png'></a>
-  </div>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <div class='about'>
-    <p>Check me out on <a href='http://www.linkedin.com/in/johnbagley'>LinkedIn</a></p>
-    <p>See the rest of my code on <a href='http://www.github.com/johnbagley'>GitHub</a></p>
-    <p>Send me a nice <a href='mailto:jdbagley@gmail.com'>email</a>  or <a href='http://www.twitter.com/johndbagley'>tweet</a></p>
-  </div>
 </div>
-</body>
-</html>
